@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/pytorch:21.05-py3
+FROM nvcr.io/nvidia/pytorch:20.12-py3
 
 RUN pip install torchvision torch ray nats_bench numpy fire ray[tune] wandb ConfigSpace hpbandster jupyter plotly seaborn yacs torch-lr-finder nasbench301 tqdm xgboost tensorflow tensorboard numpy pandas Cython click pathvalidate
 RUN pip install git+https://github.com/Mirofil/pytorch-hessian-eigenthings.git
