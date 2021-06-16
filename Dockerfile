@@ -10,5 +10,4 @@ RUN pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-1.8.0+c
 RUN pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.8.0+cu111.html
 RUN pip install torch-geometric
 
-
 CMD jupyter lab --allow-root --ip=0.0.0.0 --no-browser --LabApp.trust_xheaders=True --LabApp.disable_check_xsrf=False --LabApp.allow_remote_access=True --LabApp.allow_origin='*'
